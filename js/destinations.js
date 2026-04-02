@@ -13,7 +13,7 @@ const destinationsData = [
     { name: "Bokaro", category: "city", location: "Bokaro", description: "Bokaro is a planned industrial city of Jharkhand, developed as a major center of steel production in India. It came into prominence with the establishment of the Bokaro Steel Plant in the 1960s, one of the largest public sector steel plants. The city was designed with modern infrastructure, wide roads, and residential sectors. Bokaro grew rapidly with the expansion of heavy industries and supporting townships. Over time, it became an important industrial and educational hub of the region. Today, Bokaro represents India’s progress in steel and industrial development.", image: "images/bokaro_cover.jpg" },
     { name: "Giridih", category: "city", location: "Giridih", description: "Home to the majestic Parasnath Hill, the highest peak in Jharkhand and a world-renowned pilgrimage site for Jains. Giridih is also famous for its natural beauty, including the scenic Usri Falls and the peaceful village of Madhuban.", image: "images/giridih.png" },
     { name: "Palamu", category: "city", location: "Palamu", description: "A region rich in history and wildlife, Palamu is home to the ancient Palamu Forts, built during the Chero dynasty. It also features the Betla National Park, one of the first tiger reserves in India, offering a blend of heritage and nature.", image: "images/palamu.png" },
-    { name: "Simdega", category: "city", location: "Simdega", description: "Known for its natural beauty and hockey", image: "https://lh5.googleusercontent.com/p/AF1QipN3-L4P5L7-V8K8K5K5K5K5K5K5K5K5K5K5K5/w408-h272-k-no" },
+    { name: "Simdega", category: "city", location: "Simdega", description: "Known as the 'Cradle of Hockey' in India, Simdega is a picturesque district blessed with natural beauty, dense forests, and scenic water bodies like the Kelaghagh Dam and Ramrekha Dham.", image: "images/simdega.png" },
 
 
 
@@ -67,6 +67,7 @@ const destinationsData = [
     { name: "Tenughat Dam", category: "lake", location: "Bokaro", description: "Large earthfill dam on the Damodar river." },
     { name: "Massanjore Dam", category: "lake", location: "Dumka", description: "Also called Canada Dam, offers scenic views." },
     { name: "Konar Dam", category: "lake", location: "Hazaribagh", description: "One of the DVC dams, known for its scenic beauty." },
+    { name: "Kelaghagh Dam", category: "lake", location: "Simdega", description: "A major tourist attraction in Simdega, this dam is surrounded by hills and offers a peaceful environment for boating and picnics.", image: "images/simdega.png" },
 
     // --- Adventure ---
     { name: "Pahari Mandir Trek", category: "adventure", location: "Ranchi", description: "Climb 468 steps to the Shiva temple for a city view." },
