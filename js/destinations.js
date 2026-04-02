@@ -11,7 +11,7 @@ const destinationsData = [
     { name: "Deoghar", category: "city", location: "Deoghar", description: "Deoghar is one of the most important religious cities of Jharkhand with a rich spiritual history. It is home to the famous Baidyanath Dham, one of the 12 Jyotirlingas of Lord Shiva, attracting millions of devotees every year. The city has been a major center of pilgrimage since ancient times, especially during the Shravani Mela. Deoghar also has historical links with local kingdoms and spiritual scholars. Over time, it developed as a cultural and religious hub of eastern India. Today, Deoghar is known worldwide for its faith, traditions, and sacred heritage.", image: "images/deoghar_cover.jpg" },
     { name: "Hazaribagh", category: "city", location: "Hazaribagh", description: "Hazaribagh is a historic town of Jharkhand known for its natural beauty and cultural heritage. During British rule, it developed as a health resort due to its pleasant climate. The region has deep roots in tribal history, especially of the Santhal and Munda communities. Hazaribagh also played a role in India’s freedom movement, with leaders using it as a place of confinement. The famous Hazaribagh National Park reflects its rich wildlife and forest history. Today, the town is known for education, history, and scenic landscapes.", image: "images/hazaribagh_cover.jpg" },
     { name: "Bokaro", category: "city", location: "Bokaro", description: "Bokaro is a planned industrial city of Jharkhand, developed as a major center of steel production in India. It came into prominence with the establishment of the Bokaro Steel Plant in the 1960s, one of the largest public sector steel plants. The city was designed with modern infrastructure, wide roads, and residential sectors. Bokaro grew rapidly with the expansion of heavy industries and supporting townships. Over time, it became an important industrial and educational hub of the region. Today, Bokaro represents India’s progress in steel and industrial development.", image: "images/bokaro_cover.jpg" },
-    { name: "Giridih", category: "city", location: "Giridih", description: "Parasnath Hill and Jain temples", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Parasnath_Hills.jpg/800px-Parasnath_Hills.jpg" },
+    { name: "Giridih", category: "city", location: "Giridih", description: "Home to the majestic Parasnath Hill, the highest peak in Jharkhand and a world-renowned pilgrimage site for Jains. Giridih is also famous for its natural beauty, including the scenic Usri Falls and the peaceful village of Madhuban.", image: "images/giridih.png" },
     { name: "Palamu", category: "city", location: "Palamu", description: "Historic forts and tiger reserve", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Betla_National_Park_Gate.jpg/800px-Betla_National_Park_Gate.jpg" },
     { name: "Simdega", category: "city", location: "Simdega", description: "Known for its natural beauty and hockey", image: "https://lh5.googleusercontent.com/p/AF1QipN3-L4P5L7-V8K8K5K5K5K5K5K5K5K5K5K5K5/w408-h272-k-no" },
 
@@ -33,7 +33,7 @@ const destinationsData = [
     // --- Hill Stations & Nature ---
     { name: "Netarhat", category: "hill", location: "Latehar", description: "Queen of Chotanagpur, famous for sunrise and sunsets." },
     { name: "Patratu Valley", category: "hill", location: "Ramgarh", description: "Breathtaking S-curve roads and scenic dam view." },
-    { name: "Parasnath Hill", category: "hill", location: "Giridih", description: "Highest peak in Jharkhand, a major Jain pilgrimage site." },
+    { name: "Parasnath Hill", category: "hill", location: "Giridih", description: "The highest peak in the state of Jharkhand, standing at 1,366 meters. It is a major Jain pilgrimage site known as Shikharji, offering breathtaking panoramic views and a serene atmosphere.", image: "images/giridih.png" },
     { name: "Tagore Hill", category: "hill", location: "Ranchi", description: "Associated with Rabindranath Tagore, offers city views." },
     { name: "Canary Hill", category: "hill", location: "Hazaribagh", description: "Offers a bird's eye view of Hazaribagh town." },
     { name: "Dalma Hills", category: "hill", location: "Jamshedpur", description: "Home to the Dalma Wildlife Sanctuary and Elephant Reserve." },
@@ -49,7 +49,7 @@ const destinationsData = [
 
     // --- Spiritual ---
     { name: "Baidyanath Dham", category: "spiritual", location: "Deoghar", description: "One of the 12 Jyotirlingas, a major Shiva temple." },
-    { name: "Parasnath Temple", category: "spiritual", location: "Giridih", description: "Most important Jain pilgrimage center (Shikharji)." },
+    { name: "Parasnath Temple", category: "spiritual", location: "Giridih", description: "Also known as Sammed Shikharji, this is the most sacred pilgrimage site for Jains. It is believed that twenty of the twenty-four Tirthankaras attained Nirvana here.", image: "images/giridih.png" },
     { name: "Rajrappa Temple", category: "spiritual", location: "Ramgarh", description: "Famous Shakti Peeth dedicated to Goddess Chhinnamasta." },
     { name: "Jagannath Temple", category: "spiritual", location: "Ranchi", description: "17th-century temple, a replica of the Puri temple." },
     { name: "Sun Temple", category: "spiritual", location: "Ranchi", description: "Beautiful temple designed like a chariot with 18 wheels." },
@@ -70,13 +70,13 @@ const destinationsData = [
 
     // --- Adventure ---
     { name: "Pahari Mandir Trek", category: "adventure", location: "Ranchi", description: "Climb 468 steps to the Shiva temple for a city view." },
-    { name: "Parasnath Trek", category: "adventure", location: "Giridih", description: "Challenging 9km trek to the highest peak." },
+    { name: "Parasnath Trek", category: "adventure", location: "Giridih", description: "A challenging yet rewarding 9km trek to the highest peak in Jharkhand. The trail takes you through lush forests and offers stunning vistas of the surrounding plains.", image: "images/giridih.png" },
     { name: "Betla Jeep Safari", category: "adventure", location: "Palamu", description: "Wildlife safari to spot tigers, elephants, and deer." },
     { name: "Rock Garden", category: "adventure", location: "Ranchi", description: "Man-made garden carved out of rocks near Gonda Hill." },
     { name: "Dalma Trek", category: "adventure", location: "Jamshedpur", description: "Trekking trails through the wildlife sanctuary." },
 
     // --- Hidden Gems ---
-    { name: "Madhuban", category: "hidden", location: "Giridih", description: "Peaceful Jain village at the foothills of Parasnath." },
+    { name: "Madhuban", category: "hidden", location: "Giridih", description: "A peaceful and spiritual village situated at the foothills of Parasnath Hill. It serves as the base for the trek and is home to several ancient Jain temples and dharamshalas.", image: "images/giridih.png" },
     { name: "Lugu Buru", category: "hidden", location: "Bokaro", description: "Sacred religious site for the Santals." },
     { name: "Ulihatu", category: "hidden", location: "Khunti", description: "Birthplace of tribal freedom fighter Bhagwan Birsa Munda." },
     { name: "Dombari Buru", category: "hidden", location: "Khunti", description: "Historical hill associated with Birsa Munda's movement." },
