@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jharkhand Tourism | Land of Forests</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@500;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="home-page">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fa-solid fa-leaf text-success me-2"></i>Jharkhand<span>Tourism</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon" style="filter: invert(1);"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="destinations.html">Destinations</a></li>
+                    <li class="nav-item"><a class="nav-link" href="planner.html">Trip Planner</a></li>
+                    <li class="nav-item"><a class="nav-link" href="culture.html">Culture</a></li>
+                </ul>
+                <div class="d-flex gap-2 auth-buttons">
+                    <a href="login.html" class="btn btn-secondary btn-sm">Login</a>
+                    <a href="register.html" class="btn btn-primary btn-sm">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section text-center">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <span class="text-uppercase text-warning fw-bold ls-2 mb-3 d-block">Welcome to the Land of
+                        Forests</span>
+                    <h1 class="hero-title mb-4">Welcome to Jharkhand</h1>
+                    <p class="lead text-light mb-5 opacity-75">Experience breathtaking waterfalls, wildlife, and rich
+                        heritage.</p>
+                    <div class="d-flex gap-3 justify-content-center">
+                        <a href="planner.html" class="btn btn-primary btn-lg">Plan Your Trip</a>
+                        <a href="destinations.html" class="btn btn-secondary btn-lg">Explore Places</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Destinations -->
+    <section class="py-5 container">
+        <div class="text-center mb-5">
+            <span class="text-warning text-uppercase fw-bold">Top Attractions</span>
+            <h2 class="display-5 fw-bold">Explore Hidden Gems</h2>
+        </div>
+
+        <div class="row g-4">
+            <!-- Card 1 -->
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="position-relative">
+                        <img src="images/hundru-falls.jpg" class="card-img-top" alt="Hundru Falls"
+                            style="height: 250px; object-fit: cover;">
+                        <span class="card-tag">Waterfall</span>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="h4 card-title">Hundru Falls</h3>
+                        <p class="card-text text-muted small">One of the highest waterfalls in the state, creating a
+                            spectacular scene.</p>
+                        <a href="destinations.html?name=Hundru Falls" class="btn btn-secondary w-100">View Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="position-relative">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Betla_National_Park_Gate.jpg/800px-Betla_National_Park_Gate.jpg"
+                            class="card-img-top" alt="Betla" style="height: 250px; object-fit: cover;">
+                        <span class="card-tag">Wildlife</span>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="h4 card-title">Betla National Park</h3>
+                        <p class="card-text text-muted small">Home to elephants, tigers, and bison. First national park
+                            in India.</p>
+                        <a href="destinations.html?name=Betla National Park" class="btn btn-secondary w-100">View
+                            Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="position-relative">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Baidyanath_Temple_Deoghar.jpg/600px-Baidyanath_Temple_Deoghar.jpg"
+                            class="card-img-top" alt="Baidyanath" style="height: 250px; object-fit: cover;">
+                        <span class="card-tag">Spiritual</span>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="h4 card-title">Baidyanath Dham</h3>
+                        <p class="card-text text-muted small">One of the twelve Jyotirlingas, a place of deep spiritual
+                            significance.</p>
+                        <a href="destinations.html?name=Baidyanath Dham" class="btn btn-secondary w-100">View
+                            Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 mt-5 border-top border-secondary">
+        <div class="container text-center text-muted">
+            <p>&copy; 2024 Jharkhand Tourism Management System. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

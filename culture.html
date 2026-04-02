@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Culture | Jharkhand Tourism</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@500;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .culture-hero {
+            height: 60vh;
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('https://utsav.gov.in/public/uploads/event_picture_image/event_6991.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .img-fluid-custom {
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .food-card {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 1.5rem;
+            transition: 0.3s;
+        }
+
+        .food-card:hover {
+            transform: translateY(-3px);
+            background: rgba(255, 255, 255, 0.06);
+        }
+
+        .gi-tag-badge {
+            background: #FFD700;
+            color: #000;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.7rem;
+            font-weight: bold;
+            display: inline-block;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fa-solid fa-leaf text-success me-2"></i>Jharkhand<span>Tourism</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon" style="filter: invert(1);"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="destinations.html">Destinations</a></li>
+                    <li class="nav-item"><a class="nav-link" href="planner.html">Trip Planner</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="culture.html">Culture</a></li>
+                </ul>
+                <div class="d-flex gap-2 auth-buttons">
+                    <a href="login.html" class="btn btn-secondary btn-sm">Login</a>
+                    <a href="register.html" class="btn btn-primary btn-sm">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="culture-hero text-white mb-5">
+        <div class="container">
+            <h1 class="display-3 fw-bold mb-3">The Soul of Jharkhand</h1>
+            <p class="lead opacity-75">Tribal festivals, ancient art, and traditional cuisines.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Section 1: Festivals & Art -->
+        <h2 class="display-6 fw-bold mb-5 pb-2 border-bottom border-secondary">Festivals & Art</h2>
+
+        <div class="row align-items-center mb-5 gx-5">
+            <div class="col-md-6 mb-4 mb-md-0">
+                <h2 class="display-6 text-warning mb-3">Sarhul Festival</h2>
+                <p class="text-light opacity-75 mb-4">Sarhul is the most popular festival among the tribes of Jharkhand.
+                    It is celebrated during the spring season when the Sal trees get new flowers.</p>
+                <a href="#" class="btn btn-secondary">Learn More</a>
+            </div>
+            <div class="col-md-6">
+                <img src="https://static.toiimg.com/thumb/msid-90924976,imgsize-103306,width-400,resizemode-4/90924976.jpg"
+                    class="img-fluid-custom" alt="Sarhul Festival">
+            </div>
+        </div>
+
+        <div class="row align-items-center mb-5 gx-5">
+            <div class="col-md-6 order-2 order-md-1">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Chhau_Dance.jpg" class="img-fluid-custom"
+                    alt="Chhau Dance">
+            </div>
+            <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
+                <h2 class="display-6 text-warning mb-3">Chhau Dance</h2>
+                <p class="text-light opacity-75 mb-4">Chhau is a semi-classical Indian dance with martial, tribal, and
+                    folk origins. The Seraikella Chhau takes its name from Seraikela in Jharkhand.</p>
+            </div>
+        </div>
+
+        <!-- Section 2: Cuisine -->
+        <h2 class="display-6 fw-bold mb-4 pb-2 border-bottom border-secondary mt-5">Traditional Cuisine</h2>
+        <div class="row g-4 mb-5" id="food-grid">
+            <!-- Injected via JS -->
+        </div>
+
+        <!-- Section 3: GI Tags -->
+        <h2 class="display-6 fw-bold mb-4 pb-2 border-bottom border-secondary mt-5">Geographical Indications (GI)</h2>
+        <div class="row g-4" id="gi-grid">
+            <!-- Injected via JS -->
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="py-4 mt-5 border-top border-secondary">
+        <div class="container text-center text-muted">
+            <p>&copy; 2024 Jharkhand Tourism Management System. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/destinations.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Render Food
+            const foodGrid = document.getElementById('food-grid');
+            foodData.forEach(food => {
+                const col = document.createElement('div');
+                col.className = 'col-md-6 col-lg-3';
+                col.innerHTML = `
+                    <div class="food-card h-100">
+                        <i class="fa-solid fa-bowl-rice text-warning mb-3 fs-3"></i>
+                        <h5 class="text-white">${food.name}</h5>
+                        <p class="small text-muted mb-0">${food.description}</p>
+                    </div>
+                `;
+                foodGrid.appendChild(col);
+            });
+
+            // Render GI Tags
+            const giGrid = document.getElementById('gi-grid');
+            giData.forEach(item => {
+                const col = document.createElement('div');
+                col.className = 'col-md-6';
+                col.innerHTML = `
+                    <div class="d-flex align-items-start p-3 border border-secondary rounded" style="background: rgba(255,255,255,0.02);">
+                        <i class="fa-solid fa-certificate text-warning mt-1 me-3 fs-3"></i>
+                        <div>
+                            <h5 class="text-white mb-1">${item.name} <span class="gi-tag-badge">GI: ${item.year}</span></h5>
+                            <p class="small text-muted mb-0">${item.description}</p>
+                        </div>
+                    </div>
+                `;
+                giGrid.appendChild(col);
+            });
+        });
+    </script>
+</body>
+
+</html>
